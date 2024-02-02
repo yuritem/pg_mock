@@ -1,8 +1,8 @@
 import random
-from datetime import datetime, date
+from datetime import date
 from string import ascii_lowercase
 import itertools
-from typing import List, Tuple, Optional, Union
+from typing import List, Tuple, Optional
 
 
 def iter_alpha_strings() -> str:

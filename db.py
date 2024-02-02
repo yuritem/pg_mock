@@ -71,7 +71,3 @@ def insert_orders(order_list: List[Tuple], conn: connection) -> None:
             argslist=order_list
         )
     conn.commit()
-
-
-def select_target(conn: connection) -> ...:
-    pass
